@@ -1,0 +1,48 @@
+package Encapsulation;
+
+public class Employee {
+	
+	private int Eid;
+	private String Ename;
+	private double Esal;
+	private String Edesignation;
+	
+	public void setEid(int id)
+	{
+		Eid = id;
+	}
+	
+	public int getEid()
+	{
+		return Eid;
+	}
+	public void setEname(String name)
+	{
+		Ename = name;	
+	}
+	public String getEname()
+	{
+		return Ename;
+	}
+	
+	public void setEsal(double salary)
+	{
+		Esal = salary;
+	}
+	
+	public double getEsal()
+	{
+		return Esal;
+	}
+	
+	public void Edesignation(String designation)
+	{
+		Edesignation = designation;
+	}
+	
+	public String getEdesignation()
+	{
+		return Edesignation;
+	}
+
+}

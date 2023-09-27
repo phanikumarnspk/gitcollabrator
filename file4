@@ -1,0 +1,16 @@
+public class Currentbill {
+
+	public static void main(String[] args) {
+		// Currentbill
+		int cu = 2000;
+		int pu = 1801;
+		int units = cu-pu;
+		double unitprice = 3.33;
+		double bill = units*unitprice;
+		
+		 System.out.println(bill);
+		
+
+	}
+
+}

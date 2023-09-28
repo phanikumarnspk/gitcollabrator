@@ -1,0 +1,18 @@
+class Employee {
+ private int eno;
+private string ename;
+private string dept;
+private double sal;
+//setter and getter methods
+void set sal(double sal){
+this.sal = sal;
+}
+double get sal();
+return sal;
+}
+public void display(){
+System.out.println("eno: " +eno);
+System.out.println("ename: " +ename);
+System.out.println("sal: " +sal);
+}
+}

@@ -1,0 +1,41 @@
+ package com.test;
+
+public class slokam     implements Runnable{
+	
+	
+	
+	@Override
+	public void run() {
+		//System.out.println("--------run-------"+Thread.currentThread().getName());
+		
+	}
+	/*
+	 * public void m1() {
+	 * System.out.println("--------m1 method-------"+Thread.currentThread().getName(
+	 * ));
+	 * 
+	 * } public void m2() {
+	 * System.out.println("--------m2 method-------"+Thread.currentThread().getName(
+	 * ));
+	 * 
+	 * }
+	 */
+
+	public static void main(String[] args) {
+		
+		//Runnable a=new slokam();
+		
+		
+		slokam s=new slokam();
+		Thread t=new Thread(s);   
+		t.start();
+			
+		
+		Thread t1=new Thread(s);
+		t1.start();
+		
+	}
+
+	
+}
+

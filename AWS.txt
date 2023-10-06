@@ -1,0 +1,177 @@
+  AWS ,DEVOPS,SHELL SCRIPTING,LINUX,PROJECT
+13/09/2023
+==========
+
+1)HOW TO CREATE INSTANCE
+2)CREATE LINUX OS
+3)CREATE WINDOWS OS
+COMMANDS
+========
+*  cd /  -> CHANGE DIRECTORY
+* ls -la  -> ROOT DIRECTORY
+14/09/2023
+==========
+~ PATH TO / 	->  cd /
+ls -la   	->  open root directory
+sudo -i   	-> change to uburn to root user that means admin  
+cd /opt 	->    open folder(directory)
+mkdir  d1 	 ->   make directory(create folder)
+mkdir  d1 d2 d3  ->  no of make directory(create folder)
+pwd		->present working directory
+touch filename	-> creare folder
+touch filename filename-> create no of folders
+vi file name	-> create folder and open in edtior mode
+esc i	->  to insert date into vi file
+esc :wq!	-> save data in vi file
+cat filename	-> open file
+rm -rf filename	-> delete file 
+rm -rf *	-> delete all files or folders(directory)
+hostname -i	-> shows ip address
+whoami	-> user nane
+uname	->  which os is used 
+cd ..  -> back to folder
+
+15/09/2023
+==========
+mkdir -p d1/d2/d3/d4  --> create folder in folder(directory)
+touch file{1..50} --> create no of files at  a time
+touch file{1..50..} --> create no of files with gap one
+esc yy  -->select the line where the cursor is placed
+esc dd-->delete the line where the cursor is placed
+esc p  -->paste the line
+esc g  --> cursor change to ground
+esc h --> cursor change to head
+esc / -->find the data/search
+chmod 777 --> change mode permissions 
+default permissions are read-4 wrirte-2 excution-1
+default permissions of directory ::755
+default permissions of file ::644
+head filename -->output of first 10 lines in file
+head -2  --> out put of first 2 lines
+tail filename -->output of groung 10 lines in file
+tail -2 output of tail 2 lines in file
+
+16/09/2023
+==========
+cp filename dname  --> copy file from one (directory) to another (directory) 
+mv filename dname --> move file from one (directory) to another (directory) 
+cp -r  dname dname --> copy one folder(directory) to another (directory) 
+mv -f    --> move one (directory) to another (directory) 
+visudo -->opens the edtior and give the permissios for ubunto and new user 
+du -h    -->size of directory,usage(task manager details)
+df -th    -->processer representation(task manager details)
+ps -ef     -->to check file systm (task manager details)
+apt -get update -->update the linux os(operating system) before install any tools
+apt -get install git -->installing the git tool to linux os s
+sudo adduser username --> to create new user in linux
+sudo su - username -->to login
+sudo touch file1 --> to open ubunto and new user anything prefix we write sudo
+
+22/09/2023
+==========
+GIT Tool instalization::
+-------------------------
+*)we have three spaces in .git folder we cant see it but,we have in .git .....
+1)work space area==message(untacked files)
+2)staging /index area ==message(code to be commited)
+3)local area==message(working tree clean)
+CONFIG USER & EMAIL
+-------------------
+1)config --global user.name "narendra"
+2)config --global user.email "@gmail.com"
+Git Commands::
+--------------
+1)git init ====to initlise the git
+2)git clone URL ====it is creating the link betwen the git and github
+3)git add filename =====sending file from workspace area to staging/index area
+4)git add * =====send all files at a time 
+5)git commit -m "first commit" ====save the code 
+6)git status==== 
+7)git push=== 
+--------
+23/09/2023
+==========
+GIT Tool::
+--------
+1)create a github account
+2)create repo in github
+3)copy the repo url by clicking on the CODE tab
+4)create a new folder in your local and open git bash
+5)copy the github url into our local by using below command
+          git clone url
+6)crearte a new files by using touch or vi command
+7)git add .
+8)git commit -m "first commit"
+9)git push  --->to give files from git local  repo to github
+24/09/2023
+==========
+git log  ===>it shows all commited files
+git show id  ====>show details of commited person and email id
+git reset --soft id ====> pull back files from local area to staging /index area
+git reset  head filename ====>pull back files from staging area /index area to working space area
+git reset  --mixed  id ====> pull back files from directly from local to work space area
+id ==we have to previows id
+git id== is created before push  into hit hub
+25/09/2023
+==========
+Branching Statagy::
+---------------------
+main/master-->it is the main branch .overall sourse code is saved hear
+devlop---> it is aproxy code ..same code in main brach..
+future-name--->branch that we need to modify
+bug-name--->one more branch that we need to fix the bug finds the team in production team
+enhanchment -name---> modify the whole file
+
+Process:
+--------
+1)create a branch
+2)from main
+3)changes to be commited
+4)commit
+5)pr(pull request) to raise
+6)mr(merge request) to raise
+26/09/2023
+==========
+Terminal BRANCHING strategy:
+----------------------------
+git branch :-> present active branch
+git fetch :-> a)git fetch url
+	      b)git fetch branchurl branch name
+	      c)git fetch --all
+	      d)git fetch orgin
+git pull:->github to git  (if u want to to do any changes  interminal mode)
+git push:-> git to github
+git branch xyz :->create a branch name with xyz
+git checkout xyz:->shifting from one brach to another branch  
+git merge branchname :-> sending the files that was created in the xyz branch to main branch 
+git push origin branchname:-> push the whole branch to github
+26/09/2023
+==========
+same class repeat as same before day
+28/09/2023
+==========
+STASH MEMORY CONCEPT:
+====================
+git stash:->create stash memory
+git stash list:-> show the list of stash memory
+git stash show 0(no):-> show the stash memory files
+git stash apply 0:->open the stash memory files
+git stash drop 0:-> delete the stash memory
+git stash pop 0:-> open and delete the stash memory  same time
+
+
+
+
+
+29/09/2023:
+==========:
+MAVEEN TOOL::Build tool 
+-----------
+*)combining no of files to single file
+
+
+
+
+
+
+

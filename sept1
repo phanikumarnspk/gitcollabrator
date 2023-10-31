@@ -1,0 +1,18 @@
+public class ARRAY310723 {
+
+	public static void main(String[] args) {
+		// ARRAY
+		
+		String name = "Srikanth";
+		int age = 27;
+		String   [] sub  = {"TEL","HINDI","ENGLISH","MATHS","SCIENCE","SOCIAL"};
+		int [] marks = {78,87,75,86,98,99};
+		
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(sub);
+		System.out.println(marks);
+
+	}
+
+}                                                                                                     
